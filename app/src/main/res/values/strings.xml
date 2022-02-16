@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EC Bharatpur</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">Government Engineering College, Bharatpur is a government autonomous engineering college of Government of Rajasthan in Bharatpur, Rajasthan, India. It was established in 2007. At the outskirts of the city Bharatpur, GEC Bharatpur is located in the Golden Triangle at National Highway No.-11. It was established in 2007</string>
+</resources>

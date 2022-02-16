@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="200sp"
+              android:src="@drawable/college_image"
+              android:scaleType="fitXY"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="The GEC Tale"
+              android:layout_marginTop="36sp"
+              android:textSize="@dimen/title_size"
+              android:layout_gravity="center_horizontal"
+              android:textColor="@color/textColor"
+              android:textStyle="bold"
+              android:fontFamily="@font/lato"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/about_college"
+              android:layout_marginTop="@dimen/text_margin"
+              android:textSize="@dimen/text_size2"
+              android:layout_marginHorizontal="@dimen/text_margin"
+              android:layout_gravity="center_horizontal"
+              android:textColor="@color/textColor"
+              android:fontFamily="@font/lato"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="36sp"
+              android:orientation="vertical"
+              android:background="@color/textColor">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_margin="36sp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Departments"
+                      android:layout_marginTop="36sp"
+                      android:textSize="@dimen/title_size"
+                      android:layout_gravity="center_horizontal"
+                      android:textColor="#ffffff"
+                      android:fontFamily="@font/lato"
+                      android:textStyle="bold"
+                      />
+
+                  <androidx.cardview.widget.CardView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="16sp">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Computer Science and Engineering"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Mechanical Engineering"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Civil Engineering"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Electrical Engineering"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Electronics and Communication"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Physics Department"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Chemistry Department"
+                              android:layout_marginTop="@dimen/text_margin"
+                              android:textSize="@dimen/text_size2"
+                              android:layout_marginHorizontal="@dimen/text_margin"
+                              android:layout_gravity="center_horizontal"
+                              android:textColor="@color/textColor"
+                              android:layout_margin="8sp"
+                              android:fontFamily="@font/lato"/>
+                          <View
+                              android:layout_width="match_parent"
+                              android:layout_height="1dp"
+                              android:background="@color/grey"/>
+                      </LinearLayout>
+
+                  </androidx.cardview.widget.CardView>
+
+              </LinearLayout>
+          </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/lato"
+                    android:textStyle="bold"/>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/app_name"
+                      android:layout_marginTop="36dp"
+                      android:textSize="@dimen/title_size"
+                      android:layout_gravity="start"
+                      android:textColor="@color/textColor"
+                      android:fontFamily="@font/lato" />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Bharatpur,Rajasthan"
+                      android:layout_marginTop="36dp"
+                      android:textSize="@dimen/title_size"
+                      android:layout_gravity="start"
+                      android:textColor="@color/textColor"
+                      android:fontFamily="@font/lato" />
+                  <ImageView
+                      android:id="@+id/map"
+                      android:layout_width="wrap_content"
+                      android:layout_height="230sp"
+                      android:layout_marginTop="10sp"
+                      android:src="@drawable/map_image"
+                      android:scaleType="fitXY"
+                      />
+
+              </LinearLayout>
+
+
+
+
+
+      </LinearLayout>
+
+  </ScrollView>
+
+</FrameLayout>
